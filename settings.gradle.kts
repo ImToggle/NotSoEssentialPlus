@@ -48,6 +48,9 @@ listOf(
     "1.19.2-forge",
     "1.19.2-fabric",
 
+//    "1.19.3-forge",
+//    "1.19.3-fabric",
+
     "1.19.4-forge",
     "1.19.4-fabric",
 

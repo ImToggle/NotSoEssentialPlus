@@ -23,6 +23,9 @@ preprocess {
     val forge_1_19_04 = createNode("1.19.4-forge", 1_19_04, "srg")
     val fabric_1_19_04 = createNode("1.19.4-fabric", 1_19_04, "yarn")
 
+//    val forge_1_19_03 = createNode("1.19.2-forge", 1_19_03, "srg")
+//    val fabric_1_19_03 = createNode("1.19.2-fabric", 1_19_03, "yarn")
+
     val forge_1_19_02 = createNode("1.19.2-forge", 1_19_02, "srg")
     val fabric_1_19_02 = createNode("1.19.2-fabric", 1_19_02, "yarn")
 
@@ -53,6 +56,8 @@ preprocess {
     fabric_1_20_01.link(fabric_1_19_04)
     forge_1_19_04.link(fabric_1_19_04)
     fabric_1_19_04.link(fabric_1_19_02)
+//    forge_1_19_03.link(fabric_1_19_03)
+//    fabric_1_19_03.link(forge_1_19_03)
     forge_1_19_02.link(fabric_1_19_02)
     fabric_1_19_02.link(fabric_1_18_02)
     forge_1_18_02.link(fabric_1_18_02)

@@ -5,19 +5,15 @@
     "name": "${mod_name}",
     "description": "${mod_description}",
     "authors": [
-        "Deftu"
+        "ImToggle"
     ],
-    "contact": {
-        "issues": "https://github.com/Deftu/${mod_name}/issues",
-        "sources": "https://github.com/Deftu/${mod_name}"
-    },
     "license": "LGPL-3.0-or-later",
     "environment": "*",
     "entrypoints": {
         "main": [
             {
                 "adapter": "kotlin",
-                "value": "dev.deftu.modtemplate.entrypoint.ModTemplateEntrypoint"
+                "value": "me.imtoggle.notsoessentialplus.entrypoint.ModTemplateEntrypoint"
             }
         ]
     },
@@ -28,8 +24,6 @@
         "minecraft": "~${minor_mc_version}",
         "fabric": "*",
         "fabricloader": ">=0.15.11",
-        "fabric-language-kotlin": "*",
-        "textile": "*",
-        "omnicore": "*"
+        "fabric-language-kotlin": "*"
     }
 }

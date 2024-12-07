@@ -1,4 +1,4 @@
-package dev.deftu.modtemplate
+package me.imtoggle.notsoessentialplus
 
 object ModTemplateConstants {
 

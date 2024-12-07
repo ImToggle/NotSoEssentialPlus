@@ -1,4 +1,4 @@
-package dev.deftu.modtemplate.client
+package me.imtoggle.notsoessentialplus.client
 
 object ModTemplateClient {
 

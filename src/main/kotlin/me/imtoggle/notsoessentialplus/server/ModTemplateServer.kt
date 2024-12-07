@@ -1,4 +1,4 @@
-package dev.deftu.modtemplate.server
+package me.imtoggle.notsoessentialplus.server
 
 object ModTemplateServer {
 
